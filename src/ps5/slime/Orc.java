@@ -4,11 +4,10 @@ package ps5.slime;
 
 import javax.swing.JOptionPane;
 
-class Slime extends Monster {
+class Orc extends Monster {
 
 	// 생성자
-	public Slime(String n) {
-
+	public Orc(String n) {
 		super();
 		name = n;
 

@@ -11,7 +11,7 @@ public class Human {
 		name = n;
 	}
 
-	public void attack(Slime s) {
+	public void attack(Monster s) {
 
 		System.out.println(name + "는 " + s.name + "를 공격했다");
 		s.hp = s.hp - 30;
